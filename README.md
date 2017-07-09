@@ -1,6 +1,6 @@
 # WPKit Integrations
 
-The Integrations Helper for WPKit
+The Core Integration Class for WPKit Integrations.
 
 This repo should not be pulled directly as it is a dependancy of WPKit Core and other WPKit Integrations.
 
