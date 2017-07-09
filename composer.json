@@ -1,0 +1,28 @@
+{
+	"name": "wp-kit/integrations",
+	"description": "The Integrations Helper for WPKit",
+	"keywords": ["wordpress", "integrations", "oop", "wpkit", "themosis"],
+	"homepage" : "https://github.com/wp-kit/core",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Creative Little Dots",
+			"email" : "tech@creativelittledots.co.uk",
+			"homepage" : "https://creativelittledots.co.uk/",
+			"role" : "Developers"
+		}
+	],
+	"require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.*",
+        "illuminate/config": "5.*"
+    },
+	"type": "library",
+    "config": {
+		"preferred-install": "dist"
+	},
+	"repositories": [
+	],
+	"scripts": {
+	}
+}
