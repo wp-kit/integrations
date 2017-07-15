@@ -8,8 +8,8 @@ Other WPKit Integrations extend WPKit\Integrations\Integration within this repo.
 
 ## Requirements
 
-Wordpress 4+
-PHP 5.6+
+* Wordpress 4+
+* PHP 5.6+
 
 ## License
 
