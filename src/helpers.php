@@ -4,8 +4,8 @@
 		
 		function config_path( $file = '' ) {
 			
-		    if( function_exists('themosis_path') && ! empty( $GLOBALS['themosis.paths']['theme'] ) ) {
-			    $path = themosis_path('theme.config');
+		    if( function_exists('themosis_path') ) {
+			    $path = themosis_path('theme.resources.config');
 		    } else {
 			    $path = get_stylesheet_directory() . DS . 'resources' . DS . 'config';
 		    }
