@@ -18,6 +18,11 @@
         "illuminate/config": "5.*"
     },
 	"type": "library",
+	"autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
     "config": {
 		"preferred-install": "dist"
 	},
