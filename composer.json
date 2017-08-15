@@ -19,6 +19,9 @@
     },
 	"type": "library",
 	"autoload": {
+	"psr-4": {
+            "WPKit\\Integrations\\": "src/Integrations" 
+        },
         "files": [
             "src/helpers.php"
         ]
