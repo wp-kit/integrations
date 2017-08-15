@@ -5,7 +5,7 @@
 		function config_path( $file = '' ) {
 			
 		    if( function_exists('themosis_path') ) {
-			    $path = themosis_path('theme.resources.config');
+			    $path = themosis_path('theme.resources') . DS . 'config';
 		    } else {
 			    $path = get_stylesheet_directory() . DS . 'resources' . DS . 'config';
 		    }
