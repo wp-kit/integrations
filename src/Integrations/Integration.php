@@ -5,7 +5,7 @@
     use Illuminate\Support\ServiceProvider;
     use Illuminate\Config\Repository;
 
-	class IntegrationServiceProvider extends ServiceProvider {
+	class Integration extends ServiceProvider {
 	    
 	    public function register() {
 		    
