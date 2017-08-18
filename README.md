@@ -1,10 +1,10 @@
-# WPKit Integrations
+# wp-kit/integrations
 
-The Core Integration Class for WPKit Integrations.
+The core integration class for ```p-kit/integrations```.
 
-This repo should not be pulled directly as it is a dependancy of WPKit Core and other WPKit Integrations.
+This repo should not be pulled directly as it is a dependancy of several ```wp-kit/integrations``` extentions.
 
-Other WPKit Integrations extend WPKit\Integrations\Integration within this repo.
+Other ```wp-kit/integrations``` extentions extend the ```WPKit\Integrations\Integration``` class within this repo.
 
 ## Requirements
 
@@ -13,4 +13,4 @@ Other WPKit Integrations extend WPKit\Integrations\Integration within this repo.
 
 ## License
 
-WPKit Integrations is open-sourced software licensed under the MIT License.
+wp-kit/integrations is open-sourced software licensed under the MIT License.
