@@ -1,6 +1,6 @@
 # wp-kit/integrations
 
-The core integration class for ```p-kit/integrations```.
+The core integration class for ```wp-kit/integrations```.
 
 This repo should not be pulled directly as it is a dependancy of several ```wp-kit/integrations``` extentions.
 
