@@ -15,16 +15,14 @@
 	"require": {
         "php": ">=5.6.4",
         "illuminate/support": "5.*",
-        "illuminate/config": "5.*"
+        "illuminate/config": "5.*",
+	"wp-kit/utils": "dev-master"
     },
 	"type": "library",
 	"autoload": {
 	"psr-4": {
             "WPKit\\Integrations\\": "src/Integrations" 
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "config": {
 		"preferred-install": "dist"
