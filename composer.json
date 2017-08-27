@@ -1,7 +1,7 @@
 {
 	"name": "wp-kit/integrations",
 	"description": "The core integration class for wp-kit/integrations",
-	"keywords": ["wordpress", "integrations", "oop", "wpkit", "themosis"],
+	"keywords": ["wordpress", "integrations", "oop", "wp-kit", "themosis", "assely"],
 	"homepage" : "https://github.com/wp-kit/core",
 	"license": "MIT",
 	"authors": [
