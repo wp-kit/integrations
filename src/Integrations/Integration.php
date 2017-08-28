@@ -14,6 +14,9 @@
 	     */
 	    public function register() {
 		    
+		    /**
+		     * In case we are not using wp-kit/config, bind config for Illuminate compatibility
+		    */
 		    if( ! $this->app->bound('config.factory') ) {
 			    
 			    if( ! $this->app->bound('config') ) {
