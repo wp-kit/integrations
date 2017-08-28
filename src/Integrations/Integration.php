@@ -7,6 +7,11 @@
 
 	class Integration extends ServiceProvider {
 	    
+		/**
+	     * Register the service provider.
+	     *
+	     * @return void
+	     */
 	    public function register() {
 		    
 		    if( ! $this->app->bound('config.factory') ) {
@@ -27,6 +32,11 @@
 		    
 	    }
 	    
+		/**
+	     * Start the integration.
+	     *
+	     * @return void
+	     */
 	    public function startIntegration() {}
     	
     }
